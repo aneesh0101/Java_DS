@@ -128,6 +128,14 @@ public class SList {
     testEmpty();
     testAfterInsertFront();
     testAfterInsertEnd();
+    SList lst3 = new SList();
+    lst3.insertFront(12);
+    lst3.insertFront(9);
+    lst3.insertFront(6);
+    System.out.println("List that should look like [ 6 9 12] : " +lst3.toString());
+    lst3.insertFront(3);
+    lst3.insertEnd(15);
+    System.out.println("List that should look like [ 3 6 9 12 15] :" +lst3.toString());
   }
 
     
